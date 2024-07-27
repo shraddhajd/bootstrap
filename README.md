@@ -1,24 +1,21 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BOOTSTRAP CSS ADD WITH NEW PROJECT
 
-Things you may want to cover:
+--rails new bootstrap -j esbuile --css bootstrap
+--bundle add cssbundling-rails
+--rails css:install:bootstrap
+--bundle add jsbundling-rails
+--rails javascript:install:esbuildrr
+--yarn add @hotwired/turbo-rails
+--yarn add @hotwired/stimulus
+--npm install popper.js
 
-* Ruby version
+# APPLICATION.JS 
 
-* System dependencies
+import "jquery"
+import "popper.js"
+import "bootstrap"
+import "@hotwired/turbo-rails"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# CHECK PACKAGE.JSON
+bootstrap, pooper.js, jquery is available
